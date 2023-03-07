@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+
+            </div>
+            <div class="right-side">
+                <div class="brand">
+                    <div>Dane Tsao</div> 
+                </div>        
+            </div>
+
+
+        </div>
+        <div class="content-wrapper">
+            <div class="two-column-wrapper">
+                <div class="profile-image-wrapper">
+                    <img src="images/DSC_0507.jpg" alt="">
+                </div>
+                <div class="profile-content-wrapper">
+                    <h1>Hello, I'm</h1>
+                <div class="dane-tsao">
+                    <h1>Dane Tsao</h1>
+                </div>
+                <p1>A dedicated computer science student from Illinois. I am seeking internship oppurtunities for summer 2023 and have an interest in machine learning and finance.</p1>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <h1>Projects</h1>
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backround" style="background-image:url(images/question.jpg)"></div>
+
+                    <div class="image-text-wrapper">
+                        <div class="logo-wrapper">
+                        </div>
+                        <div class="subtitle">
+                            This is a test
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backround" style="background-image:url(images/question.jpg)"></div>
+
+                    <div class="image-text-wrapper">
+                        <div class="logo-wrapper">
+                        </div>
+                        <div class="subtitle">
+                            PPM Image Proccesor -	Utilized knowledge of structures and 2D arrays to store and manipulate a color image that is stored in the PPM (Portable PixMap) format.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backround" style="background-image:url(images/imgproccesor.jpg)"></div>
+
+                    <div class="image-text-wrapper">
+                        <div class="logo-wrapper">
+                        </div>
+                        <a href=”https://github.com/tsaoo/PPM-Image-Processor” target="_blank">
+                        <div class="subtitle">
+                            PPM Image Proccesor
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backround" style="background-image:url(images/question.jpg)"></div>
+
+                    <div class="image-text-wrapper">
+                        <div class="logo-wrapper">
+                        </div>
+                        <div class="subtitle">
+                            PPM Image Proccesor -	Utilized knowledge of structures and 2D arrays to store and manipulate a color image that is stored in the PPM (Portable PixMap) format.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backround" style="background-image:url(images/question.jpg)"></div>
+
+                    <div class="image-text-wrapper">
+                        <div class="logo-wrapper">
+                        </div>
+                        <div class="subtitle">
+                            PPM Image Proccesor -	Utilized knowledge of structures and 2D arrays to store and manipulate a color image that is stored in the PPM (Portable PixMap) format.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-backround" style="background-image:url(images/question.jpg)"></div>
+
+                    <div class="image-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="">
+                        </div>
+                        <div class="subtitle">
+                            More projects coming soon...
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact-wrapper">
+                <h1>Get in Touch</h1>
+            <p1>I would be happy to further discuss any potential oppurutinties or question you have for me. Feel free to shoot me an email or reach out to me on any solials</p1>
+            <div class="email">
+            </div>
+            </div>
+
+
+        </div>
+
+    </div>
+<div class="footer-container">
+    <div class="footer">
+        <div class="social-icon">
+            <a href="https://www.linkedin.com/in/danetsao" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://github.com/tsaoo" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            <a href="mailto:danetsaoo@gmail.com?subject=Contact from Personal Website" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>  
+        </div>
+    </div>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem.childNodes[1].classList.add('img-darken'));
+        })
+        portfolioItem.addEventListener('mouseout', () => {
+            console.log(portfolioItem.childNodes[1].classList.remove('img-darken'));
+        })
+    }
+    )
+</script>
+</html>
