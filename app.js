@@ -25,7 +25,7 @@ fetch('projects.json')
         
         projectsList.appendChild(projectItem);
     });
-    while (count < 6) {
+    /*while (count < 6) {
         const projectLink = document.createElement('a');
         projectLink.href = "https://github.com/danetsao";
         projectLink.textContent = "Coming Soon";
@@ -33,17 +33,18 @@ fetch('projects.json')
         const projectDescription = document.createElement('p');
         projectDescription.textContent = "";
   
-        const projectImage = document.createElement('img');
-        projectImage.src = "images/question.jpg";
+        //const projectImage = document.createElement('img');
+        //projectImage.src = "images/question.jpg";
   
         const projectItem = document.createElement('li');
         projectItem.classList.add('project-item');
   
         projectItem.appendChild(projectLink);
         projectItem.appendChild(projectDescription);
-        projectItem.appendChild(projectImage);
+        //projectItem.appendChild(projectImage);
   
         projectsList.appendChild(projectItem);
         count++;
       }
+      */
 });
