@@ -20,13 +20,10 @@ body {
     display: flex;
 }
 
-.dane {
-    
-}
-
 .nav-wrapper > .left-side > div {
    margin-right: 40px;
    font-size: 0.8m;
+   color: gray;
 }
 .nav-wrapper > .right-side > div {
     margin-right: 40px;
@@ -36,8 +33,6 @@ body {
 
 .nav-link-wrapper {
     height: 22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
 }
 
 .nav-link-wrapper a {
@@ -47,7 +42,6 @@ body {
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid black;
 }
 
 .nav-link-wrapper a:hover {
@@ -55,7 +49,6 @@ body {
 }
 
 .active-nav-link {
-    border-bottom: 1px solid black;
 }
 
 .active-nav-link a {
@@ -163,20 +156,19 @@ body {
 
 .social-icon a {
     margin-top: 30px;
+    margin-bottom: 30px;
     height: 0px;
     display: inline-flex;
     padding: 10px;
-    color: gray;
+    color: black;
     transition: color .2s;
     text-decoration: none;
     margin: 0 10px;
     font-size: 45px;
 }
 .social-icon a :hover {
-    transition: all .5s ease-in;
-    transition: all .5s ease-out;
-    color: black;
-    font-size: 50px;
+    transition: .5s;
+    color: rgb(83, 120, 164);
 }
 .contact-wrapper {
     grid: 1fr 1fr;
@@ -184,7 +176,7 @@ body {
 .contact-wrapper h1 {
     font-size: 50px;
     color: black;
-    text-align: left;
+    text-align: center;
     margin-bottom: 10px;
 }
 .contact-wrapper p1 {
@@ -242,4 +234,16 @@ body {
     justify-content: center;
     text-align: center;
     margin-top: 20px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  h3{
+    font-size: 75px;
+  }
+  p2 {
+    font-size: 40px;
+  }
+  footer {
+    margin: 50px;
   }
