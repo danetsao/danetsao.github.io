@@ -225,12 +225,15 @@ body {
     margin-bottom: 20px;
   }
   .project-item a {
-    background-color: #007bff;
+    background-color: #63a3e8;
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 4px;
-    align-self: flex-end;
+    align-self: flex-center;
+  }
+  .project-item a:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
   }
   #projects-list {
     display: grid;
