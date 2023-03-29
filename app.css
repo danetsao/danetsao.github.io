@@ -20,6 +20,10 @@ body {
     display: flex;
 }
 
+.dane {
+    
+}
+
 .nav-wrapper > .left-side > div {
    margin-right: 40px;
    font-size: 0.8m;
@@ -128,6 +132,7 @@ body {
     height: 600px;
     width: auto;
     place-items: center;
+    padding-left: auto;
 }
 
 .profile-content-wrapper{
@@ -187,3 +192,51 @@ body {
     color: gray;
     margin-bottom: 30px;
 }
+
+  .project-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .project-item:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .project-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .project-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .project-item a {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    align-self: flex-end;
+  }
+  #projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }

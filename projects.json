@@ -1,0 +1,43 @@
+[  
+    {    
+        "name": "Project 1",    
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",    
+        "link": "https://example.com/project-1",
+        "image": "images/imagecoding.jpg"
+    },  
+
+    {    
+        "name": "Project 2",    
+        "description": "Praesent at metus euismod, mollis tellus nec, aliquam elit.",    
+        "link": "https://example.com/project-2",
+        "image": "images/imagecoding.jpg"
+    },  
+
+    {   
+         "name": "Project 3",    
+        "description": "Sed sagittis libero vitae velit vestibulum, eget ultricies lectus ullamcorper.",    
+        "link": "https://example.com/project-3",
+        "image": "images/imagecoding.jpg"
+    },
+    
+    {    
+        "name": "Project 1",    
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",    
+        "link": "https://example.com/project-1",
+        "image": "images/imagecoding.jpg"
+    },  
+
+    {    
+        "name": "Project 2",    
+        "description": "Praesent at metus euismod, mollis tellus nec, aliquam elit.",    
+        "link": "https://example.com/project-2",
+        "image": "images/imagecoding.jpg"
+    },  
+
+    {   
+         "name": "Project 3",    
+        "description": "Sed sagittis libero vitae velit vestibulum, eget ultricies lectus ullamcorper.",    
+        "link": "https://example.com/project-3",
+        "image": "images/imagecoding.jpg"
+    }
+]
