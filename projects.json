@@ -12,6 +12,12 @@
         "image": "images/recipe.jpg"
     },
     {    
+        "name": "Agora",    
+        "description": "A full stack web app using PERN stack to model user CRUD operations. Idea was to build a employee food marketplace trading platform.",    
+        "link": "https://github.com/danetsao/Agora",
+        "image": "images/agora.jpg"
+    },
+    {    
         "name": "Image PPM Processor",    
         "description": "A PPM image processor using C programming language that allows for manipulation and modification of PPM image files.",    
         "link": "https://github.com/danetsao/PPM-Image-Processor",
