@@ -196,10 +196,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: .6s ease;
   }
-  .project-item:hover {
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-  }
+    .project-item:hover {
+        transform: scale(1.1, 1.1);
+    }
+    
   .project-item img {
     width: 100%;
     height: 200px;
