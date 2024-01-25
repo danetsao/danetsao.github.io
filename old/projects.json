@@ -1,0 +1,27 @@
+[  
+    {    
+        "name": "Data Structures Library",    
+        "description": "A 3 phase, semester long project for my DSA class where I implemented 3 data structures using C++: Circular Dynamic Array, Red Black Tree, Heap/Binomial Heap.",    
+        "link": "https://github.com/danetsao/CS201-Data-Structures-Library",
+        "image": "images/201.jpg"
+    },
+    {    
+        "name": "Recipe Search API",    
+        "description": "A Next-js React app which uses the Spoontacular API to give users recipes for certain foods.",    
+        "link": "https://recipebuddy-qzt74bu0u-danetsao.vercel.app/",
+        "image": "images/recipe.jpg"
+    },
+    {    
+        "name": "Agora",    
+        "description": "A full stack web app using PERN stack to model user CRUD operations. Idea was to build a employee food marketplace trading platform.",    
+        "link": "https://github.com/danetsao/Agora",
+        "image": "images/agora.jpg"
+    },
+    {    
+        "name": "Image PPM Processor",    
+        "description": "A PPM image processor using C programming language that allows for manipulation and modification of PPM image files.",    
+        "link": "https://github.com/danetsao/PPM-Image-Processor",
+        "image": "images/color_pixels.jpg"
+    }
+
+]
